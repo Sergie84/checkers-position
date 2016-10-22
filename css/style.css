@@ -1,0 +1,874 @@
+
+body{
+width: 100%;
+height: 100%;
+background-color: #788796;
+
+}
+
+h1{
+	text-align: center;
+	text-transform: uppercase ;
+}
+.ba-board{
+
+	display:block;
+	position: relative;
+	height: 500px;
+	width: 500px;
+	border: 20px solid #a11511;
+	background-color: #FFF;
+	margin: auto;
+	padding: 0;
+}
+
+.row-1 {
+
+	position: absolute;
+	width:100%;
+	height:12.5%;
+}
+
+ .cell-1 {
+
+ 	position: absolute;
+ 	width:12.5%;
+ 	height: 100%;
+
+ }
+ .cell-2 {
+ 	position: absolute;
+ 	left:12.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-3 {
+ 	position: absolute;
+ 	left:25%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-4 {
+ 	position: absolute;
+ 	left:37.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-5 {
+ 	position: absolute;
+ 	left:50%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-6 {
+ 	position: absolute;
+ 	left:62.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-7 {
+ 	position: absolute;
+ 	left:75%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-8 {
+ 	position: absolute;
+ 	left:87.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+.ba-board .row-1 div:nth-child(even){
+	background-color: #000;
+}
+
+.row-2 {
+
+	position: absolute;
+	width:100%;
+	height:12.5%;
+	margin-top: 12.5%;
+}
+
+ .cell-1 {
+
+ 	position: absolute;
+ 	width:12.5%;
+ 	height: 100%;
+
+ }
+ .cell-2 {
+ 	position: absolute;
+ 	left:12.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-3 {
+ 	position: absolute;
+ 	left:25%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-4 {
+ 	position: absolute;
+ 	left:37.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-5 {
+ 	position: absolute;
+ 	left:50%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-6 {
+ 	position: absolute;
+ 	left:62.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-7 {
+ 	position: absolute;
+ 	left:75%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-8 {
+ 	position: absolute;
+ 	left:87.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+.ba-board .row-2 div:nth-child(odd){
+	background-color: #000;
+}
+
+.row-3 {
+
+	position: absolute;
+	width:100%;
+	height:12.5%;
+	margin-top: 25%;
+}
+
+ .cell-1 {
+
+ 	position: absolute;
+ 	width:12.5%;
+ 	height: 100%;
+
+ }
+ .cell-2 {
+ 	position: absolute;
+ 	left:12.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-3 {
+ 	position: absolute;
+ 	left:25%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-4 {
+ 	position: absolute;
+ 	left:37.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-5 {
+ 	position: absolute;
+ 	left:50%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-6 {
+ 	position: absolute;
+ 	left:62.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-7 {
+ 	position: absolute;
+ 	left:75%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-8 {
+ 	position: absolute;
+ 	left:87.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+.ba-board .row-3 div:nth-child(even){
+	background-color: #000;
+}
+.row-4 {
+
+	position: absolute;
+	width:100%;
+	height:12.5%;
+	margin-top: 37.5%;
+}
+
+ .cell-1 {
+
+ 	position: absolute;
+ 	width:12.5%;
+ 	height: 100%;
+
+ }
+ .cell-2 {
+ 	position: absolute;
+ 	left:12.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-3 {
+ 	position: absolute;
+ 	left:25%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-4 {
+ 	position: absolute;
+ 	left:37.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-5 {
+ 	position: absolute;
+ 	left:50%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-6 {
+ 	position: absolute;
+ 	left:62.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-7 {
+ 	position: absolute;
+ 	left:75%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-8 {
+ 	position: absolute;
+ 	left:87.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+.ba-board .row-4 div:nth-child(odd){
+	background-color: #000;
+}
+.row-5 {
+	position: absolute;
+	width:100%;
+	height:12.5%;
+	margin-top: 50%;
+}
+
+ .cell-1 {
+
+ 	position: absolute;
+ 	width:12.5%;
+ 	height: 100%;
+
+ }
+ .cell-2 {
+ 	position: absolute;
+ 	left:12.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-3 {
+ 	position: absolute;
+ 	left:25%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-4 {
+ 	position: absolute;
+ 	left:37.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-5 {
+ 	position: absolute;
+ 	left:50%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-6 {
+ 	position: absolute;
+ 	left:62.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-7 {
+ 	position: absolute;
+ 	left:75%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-8 {
+ 	position: absolute;
+ 	left:87.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+.ba-board .row-5 div:nth-child(even){
+	background-color: #000;
+}
+.row-6 {
+	position: absolute;
+	width:100%;
+	height:12.5%;
+	margin-top: 62.5%;
+}
+
+ .cell-1 {
+
+ 	position: absolute;
+ 	width:12.5%;
+ 	height: 100%;
+
+ }
+ .cell-2 {
+ 	position: absolute;
+ 	left:12.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-3 {
+ 	position: absolute;
+ 	left:25%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-4 {
+ 	position: absolute;
+ 	left:37.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-5 {
+ 	position: absolute;
+ 	left:50%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-6 {
+ 	position: absolute;
+ 	left:62.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-7 {
+ 	position: absolute;
+ 	left:75%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-8 {
+ 	position: absolute;
+ 	left:87.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+.ba-board .row-6 div:nth-child(odd){
+	background-color: #000;
+}
+.row-7 {
+	position: absolute;
+	width:100%;
+	height:12.5%;
+	margin-top: 75%;
+}
+
+ .cell-1 {
+
+ 	position: absolute;
+ 	width:12.5%;
+ 	height: 100%;
+
+ }
+ .cell-2 {
+ 	position: absolute;
+ 	left:12.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-3 {
+ 	position: absolute;
+ 	left:25%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-4 {
+ 	position: absolute;
+ 	left:37.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-5 {
+ 	position: absolute;
+ 	left:50%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-6 {
+ 	position: absolute;
+ 	left:62.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-7 {
+ 	position: absolute;
+ 	left:75%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-8 {
+ 	position: absolute;
+ 	left:87.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+.ba-board .row-7 div:nth-child(even){
+	background-color: #000;
+}
+.row-8 {
+	position: absolute;
+	width:100%;
+	height:12.5%;
+	margin-top: 87.5%;
+}
+
+ .cell-1 {
+
+ 	position: absolute;
+ 	width:12.5%;
+ 	height: 100%;
+
+ }
+ .cell-2 {
+ 	position: absolute;
+ 	left:12.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-3 {
+ 	position: absolute;
+ 	left:25%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-4 {
+ 	position: absolute;
+ 	left:37.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-5 {
+ 	position: absolute;
+ 	left:50%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-6 {
+ 	position: absolute;
+ 	left:62.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-7 {
+ 	position: absolute;
+ 	left:75%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-8 {
+ 	position: absolute;
+ 	left:87.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+.ba-board .row-8 div:nth-child(odd){
+	background-color: #000;
+}
+
+.ba-checkers{
+
+	display:block;
+	position: absolute;
+	height: 500px;
+	width: 500px;
+	border: 20px solid #a11511;
+	background-color: #FFF;
+	margin: auto;
+	padding: 0;
+}
+.row-1 {
+
+	position: absolute;
+	width:100%;
+	height:12.5%;
+}
+
+ .cell-1 {
+
+ 	position: absolute;
+ 	width:12.5%;
+ 	height: 100%;
+
+
+ }
+ .cell-2 {
+ 	position: absolute;
+ 	left:12.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-3 {
+ 	position: absolute;
+ 	left:25%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-4 {
+ 	position: absolute;
+ 	left:37.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-5 {
+ 	position: absolute;
+ 	left:50%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-6 {
+ 	position: absolute;
+ 	left:62.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-7 {
+ 	position: absolute;
+ 	left:75%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+ .cell-8 {
+ 	position: absolute;
+ 	left:87.5%;
+ 	height:100%;
+ 	width: 12.5%;
+
+ }
+.ba-board .row-1 .cell-2 .white-check  {
+	margin: 10%;
+	border-radius: 50%;
+	height: 80%;
+	width: 80%;
+	background-color: #bbbccc;
+
+
+}
+.ba-board .row-1 .cell-4 .white-check  {
+	margin: 10%;
+	border-radius: 50%;
+	height: 80%;
+	width: 80%;
+	background-color: #bbbccc;
+
+
+}
+.ba-board .row-1 .cell-6 .white-check  {
+	margin: 10%;
+	border-radius: 50%;
+	height: 80%;
+	width: 80%;
+	background-color: #bbbccc;
+
+
+}
+.ba-board .row-1 .cell-8 .white-check  {
+	margin: 10%;
+	border-radius: 50%;
+	height: 80%;
+	width: 80%;
+	background-color: #bbbccc;
+
+
+}
+
+.ba-board .row-2 .cell-1 .white-check {
+	margin: 10%;
+	border-radius: 50%;
+	height: 80%;
+	width: 80%;
+	background-color: #bbbccc;
+
+}
+.ba-board .row-2 .cell-3 .white-check {
+	margin: 10%;
+	border-radius: 50%;
+	height: 80%;
+	width: 80%;
+	background-color: #bbbccc;
+
+}
+.ba-board .row-2 .cell-5 .white-check {
+	margin: 10%;
+	border-radius: 50%;
+	height: 80%;
+	width: 80%;
+	background-color: #bbbccc;
+
+}
+.ba-board .row-2 .cell-7 .white-check {
+	margin: 10%;
+	border-radius: 50%;
+	height: 80%;
+	width: 80%;
+	background-color: #bbbccc;
+
+}
+.ba-board .row-3 .cell-2 .white-check {
+	margin: 10%;
+	border-radius: 50%;
+	height: 80%;
+	width: 80%;
+	background-color: #bbbccc;
+
+}
+
+.ba-board .row-3 .cell-4 .white-check {
+	margin: 10%;
+	border-radius: 50%;
+	height: 80%;
+	width: 80%;
+	background-color: #bbbccc;
+
+}
+.ba-board .row-3 .cell-6 .white-check {
+	margin: 10%;
+	border-radius: 50%;
+	height: 80%;
+	width: 80%;
+	background-color: #bbbccc;
+
+}
+.ba-board .row-3 .cell-8 .white-check {
+	margin: 10%;
+	border-radius: 50%;
+	height: 80%;
+	width: 80%;
+	background-color: #bbbccc;
+
+}
+
+.ba-board .row-6 .cell-1 .black-cell {
+	margin: 10%;
+	border-radius: 50%;
+	height: 80%;
+	width: 80%;
+	background-color: #AB2627;
+
+}
+.ba-board .row-6 .cell-3 .black-cell {
+	margin: 10%;
+	border-radius: 50%;
+	height: 80%;
+	width: 80%;
+	background-color: #AB2627;
+
+}
+.ba-board .row-6 .cell-5 .black-cell {
+	margin: 10%;
+	border-radius: 50%;
+	height: 80%;
+	width: 80%;
+	background-color: #AB2627;
+
+}
+.ba-board .row-6 .cell-7 .black-cell {
+	margin: 10%;
+	border-radius: 50%;
+	height: 80%;
+	width: 80%;
+	background-color: #AB2627;
+
+}
+
+.ba-board .row-7 .cell-2 .black-cell {
+	margin: 10%;
+	border-radius: 50%;
+	height: 80%;
+	width: 80%;
+	background-color: #AB2627;
+
+}
+.ba-board .row-7 .cell-4 .black-cell {
+	margin: 10%;
+	border-radius: 50%;
+	height: 80%;
+	width: 80%;
+	background-color: #AB2627;
+
+}
+.ba-board .row-7 .cell-6 .black-cell {
+	margin: 10%;
+	border-radius: 50%;
+	height: 80%;
+	width: 80%;
+	background-color: #AB2627;
+
+}
+.ba-board .row-7 .cell-8 .black-cell {
+	margin: 10%;
+	border-radius: 50%;
+	height: 80%;
+	width: 80%;
+	background-color: #AB2627;
+
+}
+.ba-board .row-8 .cell-1 .black-cell {
+	margin: 10%;
+	border-radius: 50%;
+	height: 80%;
+	width: 80%;
+	background-color: #AB2627;
+
+}
+.ba-board .row-8 .cell-3 .black-cell {
+	margin: 10%;
+	border-radius: 50%;
+	height: 80%;
+	width: 80%;
+	background-color: #AB2627;
+
+}
+.ba-board .row-8 .cell-5 .black-cell {
+	margin: 10%;
+	border-radius: 50%;
+	height: 80%;
+	width: 80%;
+	background-color: #AB2627;
+
+}
+.ba-board .row-8 .cell-7 .black-cell {
+	margin: 10%;
+	border-radius: 50%;
+	height: 80%;
+	width: 80%;
+	background-color: #AB2627;
+
+}
+
+.ba-board .row-1 .cell-2 .white-check:hover {background-image:url('../img/dev.png');}
+ .ba-board .row-1 .cell-4 .white-check:hover {background-image:url('../img/dev.png');}
+
+.ba-board .row-1 .cell-6 .white-check:hover {background-image:url('../img/dev.png');}
+ .ba-board .row-1 .cell-8 .white-check:hover {background-image:url('../img/dev.png');}
+.ba-board .row-2 .cell-1 .white-check:hover {background-image:url('../img/dev.png');}
+ .ba-board .row-2 .cell-3 .white-check:hover {background-image:url('../img/dev.png');}
+.ba-board .row-2 .cell-5 .white-check:hover {background-image:url('../img/dev.png');}
+ .ba-board .row-2 .cell-7 .white-check:hover {background-image:url('../img/dev.png');}
+.ba-board .row-3 .cell-2 .white-check:hover {background-image:url('../img/dev.png');}
+ .ba-board .row-3 .cell-4 .white-check:hover {background-image:url('../img/dev.png');}
+
+.ba-board .row-3 .cell-6 .white-check:hover {
+	background-image:url('../img/dev.png');
+}
+
+
+.ba-board .row-3 .cell-8 .white-check:hover {
+background-image:url('../img/dev.png');
+}
+
+
+
+
+.ba-board .row-6 .cell-1 .black-cell:hover{background-image:url('../img/ang.jpg');}
+.ba-board .row-6 .cell-3 .black-cell:hover{background-image:url('../img/ang.jpg');}
+.ba-board .row-6 .cell-5 .black-cell:hover{background-image:url('../img/ang.jpg');}
+.ba-board .row-6 .cell-7 .black-cell:hover{background-image:url('../img/ang.jpg');}
+.ba-board .row-7 .cell-2 .black-cell:hover{background-image:url('../img/ang.jpg');}
+.ba-board .row-7 .cell-4 .black-cell:hover{background-image:url('../img/ang.jpg');}
+.ba-board .row-7 .cell-6 .black-cell:hover{background-image:url('../img/ang.jpg');}
+.ba-board .row-7 .cell-8 .black-cell:hover{background-image:url('../img/ang.jpg');}
+.ba-board .row-8 .cell-1 .black-cell:hover{background-image:url('../img/ang.jpg');}
+.ba-board .row-8 .cell-3 .black-cell:hover{background-image:url('../img/ang.jpg');}
+.ba-board .row-8 .cell-5 .black-cell:hover{background-image:url('../img/ang.jpg');}
+.ba-board .row-8 .cell-7 .black-cell:hover{
+
+background-image:url('../img/ang.jpg');
+}
+
